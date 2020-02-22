@@ -9,6 +9,8 @@
 <body>
 
 El alumno ${alumno.nombre} ${alumno.apellido} se ha registrado con éxito <br>
+Su edad es: ${alumno.edad}<br>
+eMail registrado: ${alumno.email}<br>
 La asignatura elegida: ${alumno.optativa}. <br>
 La ciudad donde iniciara los estudios es: ${alumno.ciudadEstudios}<br>
 El/Los idioma/s que quiere estudiar es/son: ${alumno.idiomaEstudio}

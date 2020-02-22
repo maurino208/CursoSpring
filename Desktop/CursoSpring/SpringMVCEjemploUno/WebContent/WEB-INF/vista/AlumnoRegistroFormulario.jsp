@@ -11,10 +11,20 @@
 
 	<form:form action="procesarFormulario" modelAttribute="alumno">
 	
-	Nombre: <form:input path="nombre"/>
+	Nombre: <form:input path="nombre"/><br>
+	<form:errors path="nombre" style="color:red"/>
 	<br><br><br>
 	
-	Apellido: <form:input path="apellido"/>
+	Apellido: <form:input path="apellido"/><br>
+	<form:errors path="apellido" style="color:red"/>
+	<br><br><br>
+	
+	Edad: <form:input path="edad"/><br>
+	<form:errors path="edad" style="color:red"/>
+	<br><br><br>	
+	
+	eMail: <form:input path="email"/><br>
+	<form:errors path="email" style="color:red"/>
 	<br><br><br>
 	
 	Asignatura: <br/>
